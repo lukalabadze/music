@@ -1,0 +1,258 @@
+*{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ text-decoration: none;
+ box-sizing: border-box;
+ font-family: "Roboto", sans-serif;
+}
+
+.flex{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+header{
+background-color: black;
+padding: 12px 120px;
+}
+ 
+header h1{
+width: 70px;
+height: 70px;
+background-image: url(img/music-note\ 1.png);
+background-repeat: no-repeat;
+background-size: 100%;
+text-indent: -99999999px;
+margin-right: 168px;
+}
+
+header h1 a{
+display: block;
+width: 70px;
+height: 70px;
+}
+
+header.flex{
+justify-content: flex-start;
+}
+
+header ul a{
+color: white;
+font-size: 10px;
+
+}
+
+header ul{
+    width: 271px;
+}
+
+
+main{
+padding: 50px 101px;
+
+}
+
+h2{
+font-size: 24px;
+}
+
+article{
+width: 300px;
+height: 244.96px;
+border: 1px solid black;
+position: relative;
+padding: 145px 12px 49px 12px;
+background-image: url(img/sound\ 2.png);
+background-repeat: repeat-x;
+background-size: 25%;
+background-position-y: 50px;
+margin-bottom: 9px;
+margin-top: 51px;
+
+
+
+
+}
+
+.guli{
+width: 50px;
+height: 50px;
+background-image: url(img/like\ 1.png);
+position: absolute;
+top: -3px;
+right: 0px;
+}
+
+.guli:hover{
+background-image: url(img/like\ 2.png);
+
+}
+
+
+
+
+article p{
+  font-size: 18px;
+  margin-top: 13px;
+}
+
+article h3{
+   font-size: 10px;
+
+}
+
+
+.statia p a{
+  color: black;
+  font-size: 12px;
+
+}
+
+
+.static:hover article{
+box-shadow: 0 0 5px   black;
+
+}
+
+.static:hover p a{
+  text-decoration: underline;
+}
+
+
+
+footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 27px 17px;
+
+}
+
+.footer a{
+color: white;
+
+}
+
+footer img{
+width: 150px;
+
+}
+
+footer nav{
+margin: 25px 0 50px 0;
+
+}
+
+.social{
+ width: 50px;
+height: 100px;
+background-color: rgb(255, 255, 255);
+position: fixed;
+right: 0;
+top: 213px;
+}
+
+.socialicon{
+ width: 100%;
+height: 50%;
+}
+
+.fb{
+ background-image: url(img/fb\ 1.png);
+ background-size: 100%;
+}
+
+.insta{
+ background-image: url(img/instagram\ 1.png);
+ background-size: 100%;
+
+}
+
+.fb:hover{
+background-image: url(img/facebook.png);
+
+}
+
+.insta:hover{
+ background-image: url(img/instagram.png);
+
+}
+
+.social a{
+display: block;
+width: 100%;
+height: 100%;
+}
+
+section li a{
+color: black;
+
+}
+
+section li{
+margin: 8px;
+
+}
+
+section h2{
+  margin-bottom: 50px;
+}
+
+.playlistcontainer{
+  width: 720px;
+}
+
+.soudcot{
+width: 260px;
+height: 65px;
+background-size: 25%;
+background-repeat: repeat-x;
+background-image: url(img/sound\ 2.png);
+margin: 46px auto 100px auto;
+}
+
+.thanks{
+ text-align: center;
+ font-size: 36px;
+ font-weight: 300;
+ margin-bottom: 143px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
